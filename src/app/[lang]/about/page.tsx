@@ -6,9 +6,9 @@ export const metadata = {
   description: "Conoce el origen de REBO 3D, nuestra pasión por el 3D y la visión para el futuro de la música.",
 };
 
-export default async function AboutPage({ params }: { params: Promise<{ lang: "es" | "en" | "eu" }> }) {
+export default async function AboutPage({ params }: { params: Promise<{ lang: string }> }) {
   const { lang } = await params;
-  const dictionary = await getDictionary(lang);
+  const dictionary = await getDictionary(lang as "es" | "en" | "eu");
   const dict = dictionary.about;
 
   return (

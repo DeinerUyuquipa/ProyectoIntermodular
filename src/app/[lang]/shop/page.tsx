@@ -9,9 +9,9 @@ export const metadata = {
   description: "Explora nuestra colección de instrumentos de última generación.",
 };
 
-export default async function ShopPage({ params }: { params: Promise<{ lang: "es" | "en" | "eu" }> }) {
+export default async function ShopPage({ params }: { params: Promise<{ lang: string }> }) {
   const { lang } = await params;
-  const dictionary = await getDictionary(lang);
+  const dictionary = await getDictionary(lang as "es" | "en" | "eu");
   const dict = dictionary.shop;
 
   const products = [

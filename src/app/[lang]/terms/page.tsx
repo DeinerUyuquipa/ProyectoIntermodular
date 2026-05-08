@@ -7,9 +7,9 @@ export const metadata = {
   description: "Términos y Condiciones de uso del servicio de impresión 3D y luthería de REBO 3D.",
 };
 
-export default async function TermsPage({ params }: { params: Promise<{ lang: "es" | "en" | "eu" }> }) {
+export default async function TermsPage({ params }: { params: Promise<{ lang: string }> }) {
   const { lang } = await params;
-  const dictionary = await getDictionary(lang);
+  const dictionary = await getDictionary(lang as "es" | "en" | "eu");
   const dict = dictionary.terms;
 
   return (

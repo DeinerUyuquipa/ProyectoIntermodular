@@ -3,9 +3,9 @@ import { Narrative } from "@/components/home/Narrative";
 import { SmoothScrolling } from "@/components/SmoothScrolling";
 import { getDictionary } from "@/get-dictionary";
 
-export default async function Home({ params }: { params: Promise<{ lang: "es" | "en" | "eu" }> }) {
+export default async function Home({ params }: { params: Promise<{ lang: string }> }) {
   const { lang } = await params;
-  const dictionary = await getDictionary(lang);
+  const dictionary = await getDictionary(lang as "es" | "en" | "eu");
 
   return (
     <SmoothScrolling>

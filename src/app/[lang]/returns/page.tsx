@@ -7,9 +7,9 @@ export const metadata = {
   description: "Política de envíos y devoluciones de piezas y guitarras impresas en 3D.",
 };
 
-export default async function ReturnsPage({ params }: { params: Promise<{ lang: "es" | "en" | "eu" }> }) {
+export default async function ReturnsPage({ params }: { params: Promise<{ lang: string }> }) {
   const { lang } = await params;
-  const dictionary = await getDictionary(lang);
+  const dictionary = await getDictionary(lang as "es" | "en" | "eu");
   const dict = dictionary.returns;
 
   return (

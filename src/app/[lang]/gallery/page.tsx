@@ -7,9 +7,9 @@ export const metadata = {
   description: "Descubre las creaciones de nuestra comunidad.",
 };
 
-export default async function GalleryPage({ params }: { params: Promise<{ lang: "es" | "en" | "eu" }> }) {
+export default async function GalleryPage({ params }: { params: Promise<{ lang: string }> }) {
   const { lang } = await params;
-  const dictionary = await getDictionary(lang);
+  const dictionary = await getDictionary(lang as "es" | "en" | "eu");
   const dict = dictionary.gallery;
 
   const galleryItems = [

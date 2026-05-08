@@ -7,9 +7,9 @@ export const metadata = {
   description: "Política de privacidad y protección de datos de REBO 3D.",
 };
 
-export default async function PrivacyPage({ params }: { params: Promise<{ lang: "es" | "en" | "eu" }> }) {
+export default async function PrivacyPage({ params }: { params: Promise<{ lang: string }> }) {
   const { lang } = await params;
-  const dictionary = await getDictionary(lang);
+  const dictionary = await getDictionary(lang as "es" | "en" | "eu");
   const dict = dictionary.privacy;
 
   return (
