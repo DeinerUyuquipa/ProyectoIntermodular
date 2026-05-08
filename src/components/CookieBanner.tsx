@@ -12,11 +12,11 @@ export function CookieBanner({ dictionary }: { dictionary?: any }) {
   const [showOptions, setShowOptions] = useState(false);
   const pathname = usePathname();
   const currentLang = pathname?.split('/')[1] || 'es';
-  
+
   // Cookie preferences
   const [analytics, setAnalytics] = useState(false);
   const [marketing, setMarketing] = useState(false);
-
+  // fix author
   const dict = dictionary?.cookie || {
     title: "Valoramos tu privacidad",
     description: "Utilizamos cookies propias y de terceros para mejorar tu experiencia en nuestra web, analizar el tráfico y personalizar el contenido. Puedes aceptar todas las cookies, rechazarlas o configurar tus preferencias. Para más información, lee nuestra ",
@@ -65,15 +65,13 @@ export function CookieBanner({ dictionary }: { dictionary?: any }) {
       type="button"
       disabled={disabled}
       onClick={() => onChange && onChange(!checked)}
-      className={`relative inline-flex h-6 w-11 shrink-0 cursor-pointer items-center justify-center rounded-full transition-colors duration-200 ease-in-out focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 focus:ring-offset-background ${
-        checked ? "bg-primary" : "bg-muted"
-      } ${disabled ? "opacity-50 cursor-not-allowed" : ""}`}
+      className={`relative inline-flex h-6 w-11 shrink-0 cursor-pointer items-center justify-center rounded-full transition-colors duration-200 ease-in-out focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 focus:ring-offset-background ${checked ? "bg-primary" : "bg-muted"
+        } ${disabled ? "opacity-50 cursor-not-allowed" : ""}`}
     >
       <span
         aria-hidden="true"
-        className={`pointer-events-none inline-block h-5 w-5 transform rounded-full bg-white shadow ring-0 transition duration-200 ease-in-out ${
-          checked ? "translate-x-2.5" : "-translate-x-2.5"
-        }`}
+        className={`pointer-events-none inline-block h-5 w-5 transform rounded-full bg-white shadow ring-0 transition duration-200 ease-in-out ${checked ? "translate-x-2.5" : "-translate-x-2.5"
+          }`}
       />
     </button>
   );
@@ -89,7 +87,7 @@ export function CookieBanner({ dictionary }: { dictionary?: any }) {
           className="fixed bottom-0 left-0 right-0 z-50 p-4 md:p-6 flex justify-center pointer-events-none"
         >
           <div className="bg-card text-card-foreground border border-border shadow-2xl rounded-2xl p-6 max-w-4xl w-full pointer-events-auto flex flex-col gap-6">
-            
+
             {!showOptions ? (
               // Main Banner View
               <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
@@ -122,9 +120,9 @@ export function CookieBanner({ dictionary }: { dictionary?: any }) {
               </div>
             ) : (
               // Options View
-              <motion.div 
-                initial={{ opacity: 0 }} 
-                animate={{ opacity: 1 }} 
+              <motion.div
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
                 className="flex flex-col gap-6"
               >
                 <div>
@@ -135,7 +133,7 @@ export function CookieBanner({ dictionary }: { dictionary?: any }) {
                 </div>
 
                 <div className="space-y-4 border-y border-border py-4">
-                  
+
                   {/* Essential Cookies */}
                   <div className="flex items-center justify-between">
                     <div>
