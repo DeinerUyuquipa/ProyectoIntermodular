@@ -1,0 +1,188 @@
+{
+  "navbar": {
+    "explore": "Explore",
+    "configurator": "3D Configurator",
+    "gallery": "Gallery",
+    "about": "Our Story",
+    "support": "Support",
+    "login": "Login"
+  },
+  "hero": {
+    "title_rebo": "REBO 3D:",
+    "title_future": "The Future of Lutherie.",
+    "subtitle": "Configure. Print. Play.",
+    "enter_lab": "Enter the Lab",
+    "view_gallery": "View Gallery"
+  },
+  "narrative": {
+    "title1": "Clean Engineering.",
+    "title2": "Absolute Precision.",
+    "title3": "Your Sound, Tailor-made.",
+    "description": "At REBO 3D, we combine traditional lutherie with cutting-edge additive manufacturing. Our workshop is a laboratory where filament transforms into perfect resonance.",
+    "badge": "Engineering Workshop"
+  },
+  "footer": {
+    "description": "Transcending traditional lutherie through precision engineering and 3D printing.",
+    "rights": "All rights reserved.",
+    "legal": "Legal & Support",
+    "returns": "Shipping & Returns",
+    "terms": "Terms & Conditions",
+    "privacy": "Privacy Policy",
+    "follow": "Follow Us",
+    "community": "Join our community of creators and luthiers."
+  },
+  "cookie": {
+    "title": "We value your privacy",
+    "description": "We use our own and third-party cookies to improve your experience on our website, analyze traffic and personalize content. You can accept all cookies, reject them or configure your preferences. For more information, read our ",
+    "privacy_link": "Privacy Policy",
+    "reject": "Reject",
+    "options": "Options",
+    "accept": "Accept All",
+    "preferences_title": "Privacy Preferences",
+    "preferences_desc": "Customize how we use your data. Essential cookies cannot be disabled as they are necessary for the website to function.",
+    "essential_title": "Essential (Strictly necessary)",
+    "essential_desc": "Guarantee basic functions and website security.",
+    "analytics_title": "Analytics",
+    "analytics_desc": "Help us understand how you interact with the website anonymously to improve it.",
+    "marketing_title": "Marketing & Advertising",
+    "marketing_desc": "Used to track visitors and display relevant and engaging ads.",
+    "back": "Back",
+    "save": "Save Preferences"
+  },
+  "shop": {
+    "title": "REBO Catalogue",
+    "subtitle": "Parts, filaments and base models for 3D printing.",
+    "filter": "Filter",
+    "coming_soon": "Coming Soon",
+    "categories": {
+      "guitars": "Guitars",
+      "materials": "Materials",
+      "hardware": "Hardware"
+    },
+    "tags": {
+      "popular": "Popular",
+      "new": "New",
+      "premium": "Premium"
+    }
+  },
+  "gallery": {
+    "title": "REBO Community",
+    "subtitle": "Get inspired by guitars assembled by creators and luthiers from around the world using our 3D-printed parts.",
+    "by": "by",
+    "upload": "Upload Your Creation (Coming Soon)"
+  },
+  "about": {
+    "title_our": "Our",
+    "title_story": "Story.",
+    "back_home": "Back to home",
+    "p1": "Quite some time has passed since that September 13, 2021",
+    "p1_cont": " when I decided to sign up for the Control 3D Academy. My initial goal was clear: to create my own Warhammer figures and other pieces to paint and display.",
+    "p2_start": "There I discovered not only the world of 3D printing, but also an ",
+    "p2_bold": "incredible community",
+    "p2_end": ". As it usually goes, you meet someone who introduces you to another person, and gradually you absorb the knowledge of those who live and enjoy this hobby.",
+    "p3": "Although, over time, it stops being a hobby when you dedicate a large part of your time outside of work to it, and it becomes a true passion.",
+    "section2_title1": "From Hobby",
+    "section2_title2": "to ",
+    "section2_title3": "Musical Innovation",
+    "customized": "Customized",
+    "customized_desc": "Every guitar is unique, tailored to the client.",
+    "p4_start": "And how did I get into the world of guitars? Largely thanks to my friend and partner, who, like me, is a musician. One day, exploring repositories, we discovered the famous ",
+    "p4_bold": "Prusacaster",
+    "p4_end": ": a Fender Telecaster manufactured using 3D printing on a Prusa machine. That sparked our curiosity.",
+    "p5_start": "We started working on that concept, ",
+    "p5_bold": "analyzing its flaws and improving them step by step",
+    "p5_end": ", until we reached the point where we are today: creating custom guitars on demand. We adapt to what each client is looking for and needs, and when something isn't possible, we offer alternatives to find the best solution.",
+    "quote": "\"This is Rebo3D: hard work, great enthusiasm and a shared passion for music and for creating things from an idea.\""
+  },
+  "support": {
+    "title": "Technical Support",
+    "subtitle": "We're here to help you assemble, configure or troubleshoot any issue with your REBO hardware.",
+    "faq_title": "Frequently Asked Questions",
+    "contact_title": "Direct Contact",
+    "contact_subtitle": "Write to us and an engineer will reply within 24 hours.",
+    "name_label": "Name",
+    "name_placeholder": "Your name",
+    "email_label": "Email",
+    "email_placeholder": "you@email.com",
+    "message_label": "Message",
+    "message_placeholder": "How can we help you?",
+    "send": "Send Message",
+    "sent_title": "Message Sent",
+    "sent_desc": "Thank you for contacting us. We'll review your case as soon as possible.",
+    "send_another": "Send another message",
+    "faqs": [
+      {
+        "question": "How long does the printing and shipping process take?",
+        "answer": "Depending on the selected materials and the complexity of the piece, printing takes between 4 and 7 business days. Shipping usually takes an additional 2-3 days within the peninsula."
+      },
+      {
+        "question": "What type of filaments do you use for the instruments?",
+        "answer": "We use acoustically modified polycarbonate (PC), reinforced PETG and industrial-grade PLA+. These materials guarantee resistance to string tension and optimal resonance."
+      },
+      {
+        "question": "Is it possible to request a custom design not available in the configurator?",
+        "answer": "Yes. For Custom Shop special projects, use the form below and tell us your idea. Our team of engineers and designers will evaluate it."
+      },
+      {
+        "question": "Do the components have a warranty?",
+        "answer": "We offer a 2-year structural warranty on all bodies and necks printed in our laboratory, covering any deformation from natural use stress."
+      }
+    ]
+  },
+  "terms": {
+    "back_home": "Back to home",
+    "title": "Terms & Conditions",
+    "s1_title": "1. Acceptance of Terms",
+    "s1_p": "By accessing and using the REBO 3D website, as well as our instrument configurator, you agree to be bound by these Terms and Conditions. If you disagree with any part of the terms, you should not use our services.",
+    "s2_title": "2. Nature of 3D Printing",
+    "s2_p1": "You understand and accept that 3D printing (FDM/SLA/SLS) is an additive manufacturing process that creates parts layer by layer. As a result, it is normal for final products to show slight layer lines or textures inherent to the machining process.",
+    "s2_p2": "Although our laboratory calibrates the machines to achieve tolerances of 0.1mm and premium finishes, the surface will not be identical to injection-moulded plastic or traditionally polished wood, which is part of the instrument's aesthetic and identity.",
+    "s3_title": "3. Limitation of Liability",
+    "s3_p1": "REBO 3D manufactures and supplies the bodies, necks and components. Although we guarantee structural integrity (see Shipping and Returns Policy), final assembly, string calibration, intonation and electronic component soldering is the user's responsibility unless an \"Assembled and Calibrated\" model is purchased.",
+    "s3_p2": "We are not responsible for damage to printed components caused by incorrect string tension, defective assembly by the client or prolonged exposure to extreme temperatures (especially in vehicle interiors).",
+    "s4_title": "4. Intellectual Property",
+    "s4_p": "All parametric designs, base models (such as REBO Strat and Acoustic Shell), logos and visual content on this site are the exclusive property of REBO 3D. Reverse engineering of our internal resonance structures (acoustic infill) for commercial purposes is strictly prohibited.",
+    "s5_title": "5. Price Modification",
+    "s5_p": "The prices of our products (both filaments and guitars) are subject to change without notice due to fluctuations in material costs and printing hours. However, we will honor the price at the time the order is confirmed and paid."
+  },
+  "privacy": {
+    "back_home": "Back to home",
+    "title": "Privacy Policy",
+    "s1_title": "1. Information Collection",
+    "s1_p": "At REBO 3D, we greatly value your privacy. We collect basic personal information (such as name, email address, shipping address and order details) exclusively to process your 3D-printed parts orders, manage shipping and provide technical support.",
+    "s2_title": "2. Use of Information",
+    "s2_intro": "The information we collect is used to:",
+    "s2_items": [
+      "Manufacture and ship the customized products you have ordered.",
+      "Communicate with you regarding the status of your machining or shipping.",
+      "Provide after-sales support and manage the structural warranty.",
+      "Improve our 3D configurator based on anonymous usage metrics."
+    ],
+    "s3_title": "3. 3D Models and Custom Designs",
+    "s3_p": "If you send us STL, OBJ files or ideas for \"Custom Shop\" projects, we guarantee the total confidentiality of your intellectual property. We will not share, resell or use your original designs for other clients without your express written consent.",
+    "s4_title": "4. Data Protection",
+    "s4_p": "We implement industry-standard security measures to protect your personal information and payment details. Your transaction data is processed by secure third-party payment gateways and we do not store credit card numbers on our servers.",
+    "s5_title": "5. Your Rights",
+    "s5_p": "You have the right to access, rectify or request the deletion of your personal data at any time. To exercise these rights or make any privacy inquiry, contact us through our support portal."
+  },
+  "returns": {
+    "back_home": "Back to home",
+    "title": "Shipping & Returns Policy",
+    "s1_title": "1. Machining and Shipping Times",
+    "s1_p1": "At REBO 3D, each part is manufactured on demand with the highest quality standards. Depending on the selected materials and the complexity of the piece, the printing process (machining) takes between 4 and 7 business days.",
+    "s1_p2": "Once the part has passed our quality controls, shipping is processed. Standard transit time is 2 to 3 additional business days within the peninsula. You'll receive a tracking code as soon as your order leaves our laboratory.",
+    "s2_title": "2. Custom Parts and Custom Guitars",
+    "s2_p1": "Due to the highly customized nature of our guitars and on-demand components, we do not accept returns for change of mind once the printing process has started.",
+    "s2_p2": "Each instrument is calibrated and manufactured according to the exact specifications you've chosen in our configurator. Therefore, we ask you to carefully review your order before confirming it.",
+    "s3_title": "3. Warranty and Manufacturing Defects",
+    "s3_p1": "We are committed to the excellence of our hardware. We offer a 2-year structural warranty on all bodies and necks printed in our laboratory, covering any unusual deformation from the natural stress of the strings or manufacturing defects.",
+    "s3_p2": "If you receive a product damaged during shipping or with a printing defect:",
+    "s3_items": [
+      "Notify us within 48 hours of receiving the package.",
+      "Send clear photographs of the defect to our support team.",
+      "We will manufacture and ship a replacement part at no additional cost."
+    ],
+    "s4_title": "4. Cancellations",
+    "s4_p": "You can cancel your order and receive a full refund as long as the cancellation is requested within the first 24 hours after purchase, before the order enters the production queue of our printers."
+  }
+}

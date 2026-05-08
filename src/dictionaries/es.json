@@ -1,0 +1,188 @@
+{
+  "navbar": {
+    "explore": "Explora",
+    "configurator": "Configurador 3D",
+    "gallery": "Galería",
+    "about": "Nuestra Historia",
+    "support": "Soporte",
+    "login": "Login"
+  },
+  "hero": {
+    "title_rebo": "REBO 3D:",
+    "title_future": "El Futuro de la Luthería.",
+    "subtitle": "Configura. Imprime. Toca.",
+    "enter_lab": "Entrar al Laboratorio",
+    "view_gallery": "Ver Galería"
+  },
+  "narrative": {
+    "title1": "Ingeniería Limpia.",
+    "title2": "Precisión Absoluta.",
+    "title3": "Tu Sonido, Hecho a Medida.",
+    "description": "En REBO 3D, combinamos la luthería tradicional con manufactura aditiva de vanguardia. Nuestro taller es un laboratorio donde el filamento se transforma en resonancia perfecta.",
+    "badge": "Taller de Ingeniería"
+  },
+  "footer": {
+    "description": "Trascendiendo la luthería tradicional mediante ingeniería de precisión e impresión 3D.",
+    "rights": "Todos los derechos reservados.",
+    "legal": "Legal y Soporte",
+    "returns": "Envíos y Devoluciones",
+    "terms": "Términos y Condiciones",
+    "privacy": "Política de Privacidad",
+    "follow": "Síguenos",
+    "community": "Únete a nuestra comunidad de creadores y luthiers."
+  },
+  "cookie": {
+    "title": "Valoramos tu privacidad",
+    "description": "Utilizamos cookies propias y de terceros para mejorar tu experiencia en nuestra web, analizar el tráfico y personalizar el contenido. Puedes aceptar todas las cookies, rechazarlas o configurar tus preferencias. Para más información, lee nuestra ",
+    "privacy_link": "Política de Privacidad",
+    "reject": "Rechazar",
+    "options": "Opciones",
+    "accept": "Aceptar Todo",
+    "preferences_title": "Preferencias de Privacidad",
+    "preferences_desc": "Personaliza cómo utilizamos tus datos. Las cookies esenciales no se pueden desactivar ya que son necesarias para el funcionamiento de la web.",
+    "essential_title": "Esenciales (Estrictamente necesarias)",
+    "essential_desc": "Garantizan funciones básicas y la seguridad de la web.",
+    "analytics_title": "Analíticas",
+    "analytics_desc": "Nos ayudan a entender cómo interactúas con la web de forma anónima para mejorarla.",
+    "marketing_title": "Marketing y Publicidad",
+    "marketing_desc": "Se utilizan para rastrear a los visitantes y mostrar anuncios relevantes y atractivos.",
+    "back": "Volver",
+    "save": "Guardar Preferencias"
+  },
+  "shop": {
+    "title": "Catálogo REBO",
+    "subtitle": "Piezas, filamentos y modelos base para impresión 3D.",
+    "filter": "Filtrar",
+    "coming_soon": "Próximamente",
+    "categories": {
+      "guitars": "Guitarras",
+      "materials": "Materiales",
+      "hardware": "Hardware"
+    },
+    "tags": {
+      "popular": "Popular",
+      "new": "Nuevo",
+      "premium": "Premium"
+    }
+  },
+  "gallery": {
+    "title": "Comunidad REBO",
+    "subtitle": "Inspírate con las guitarras ensambladas por creadores y luthiers de todo el mundo utilizando nuestras piezas impresas en 3D.",
+    "by": "por",
+    "upload": "Sube tu Creación (Próximamente)"
+  },
+  "about": {
+    "title_our": "Nuestra",
+    "title_story": "Historia.",
+    "back_home": "Volver al inicio",
+    "p1": "Ha pasado ya bastante tiempo desde aquel 13 de septiembre de 2021",
+    "p1_cont": " en el que decidí apuntarme a la Academia de Control 3D. Mi objetivo inicial era claro: crear mis propios muñecos de Warhammer y otras piezas para pintarlas y exponerlas.",
+    "p2_start": "Allí descubrí no solo el mundo de la impresión 3D, sino también a una ",
+    "p2_bold": "comunidad increíble",
+    "p2_end": ". Como suele pasar, conoces a alguien que te presenta a otra persona, y poco a poco te vas empapando del conocimiento de quienes viven y disfrutan de este hobby.",
+    "p3": "Aunque, con el tiempo, deja de ser un hobby cuando le dedicas gran parte de tu tiempo fuera del trabajo y se convierte en una verdadera pasión.",
+    "section2_title1": "Del Hobby",
+    "section2_title2": "a la ",
+    "section2_title3": "Innovación Musical",
+    "customized": "Personalizado",
+    "customized_desc": "Cada guitarra es única, adaptada al cliente.",
+    "p4_start": "¿Y cómo llegué al mundo de las guitarras? En gran parte, gracias a mi amigo y socio, que al igual que yo es músico. Un día, explorando repositorios, descubrimos la famosa ",
+    "p4_bold": "Prusacaster",
+    "p4_end": ": una Fender Telecaster fabricada mediante impresión 3D en una máquina Prusa. Aquello despertó nuestra curiosidad.",
+    "p5_start": "Empezamos trabajando sobre ese concepto, ",
+    "p5_bold": "analizando sus fallos y mejorándolos poco a poco",
+    "p5_end": ", hasta llegar al punto en el que estamos hoy: creando guitarras personalizadas bajo demanda. Nos adaptamos a lo que cada cliente busca y necesita, y cuando algo no es posible, ofrecemos alternativas para encontrar la mejor solución.",
+    "quote": "\"Esto es Rebo3D: mucho trabajo, mucha ilusión y una pasión compartida por la música y por crear cosas a partir de una idea.\""
+  },
+  "support": {
+    "title": "Soporte Técnico",
+    "subtitle": "Estamos aquí para ayudarte a ensamblar, configurar o solucionar cualquier inconveniente con tu hardware REBO.",
+    "faq_title": "Preguntas Frecuentes",
+    "contact_title": "Contacto Directo",
+    "contact_subtitle": "Escríbenos y un ingeniero te responderá en menos de 24 horas.",
+    "name_label": "Nombre",
+    "name_placeholder": "Tu nombre",
+    "email_label": "Correo Electrónico",
+    "email_placeholder": "tu@correo.com",
+    "message_label": "Mensaje",
+    "message_placeholder": "¿En qué te podemos ayudar?",
+    "send": "Enviar Mensaje",
+    "sent_title": "Mensaje Enviado",
+    "sent_desc": "Gracias por contactarnos. Revisaremos tu caso lo antes posible.",
+    "send_another": "Enviar otro mensaje",
+    "faqs": [
+      {
+        "question": "¿Cuánto tarda el proceso de impresión y envío?",
+        "answer": "Dependiendo de los materiales seleccionados y la complejidad de la pieza, el maquinado toma entre 4 y 7 días hábiles. El envío suele tardar 2-3 días adicionales dentro del territorio peninsular."
+      },
+      {
+        "question": "¿Qué tipo de filamentos utilizan para los instrumentos?",
+        "answer": "Utilizamos policarbonato (PC) modificado acústicamente, PETG reforzado y PLA+ de grado industrial. Estos materiales garantizan resistencia a la tensión de las cuerdas y una resonancia óptima."
+      },
+      {
+        "question": "¿Es posible solicitar un diseño personalizado que no está en el configurador?",
+        "answer": "Sí. Para proyectos especiales Custom Shop, utiliza el formulario a continuación y cuéntanos tu idea. Nuestro equipo de ingenieros y diseñadores la evaluará."
+      },
+      {
+        "question": "¿Tienen garantía los componentes?",
+        "answer": "Ofrecemos garantía estructural de 2 años en todos los cuerpos y mástiles impresos en nuestro laboratorio, cubriendo cualquier deformación por estrés natural del uso."
+      }
+    ]
+  },
+  "terms": {
+    "back_home": "Volver al inicio",
+    "title": "Términos y Condiciones",
+    "s1_title": "1. Aceptación de los Términos",
+    "s1_p": "Al acceder y utilizar el sitio web de REBO 3D, así como nuestro configurador de instrumentos, aceptas estar sujeto a estos Términos y Condiciones. Si no estás de acuerdo con alguna parte de los términos, no deberías utilizar nuestros servicios.",
+    "s2_title": "2. Naturaleza de la Impresión 3D",
+    "s2_p1": "Comprendes y aceptas que la impresión 3D (FDM/SLA/SLS) es un proceso de fabricación aditiva que crea piezas capa por capa. Como resultado, es normal que los productos finales presenten ligeras líneas de capa o texturas inherentes al proceso de maquinado.",
+    "s2_p2": "Aunque nuestro laboratorio calibra las máquinas para obtener tolerancias de 0.1mm y acabados premium, la superficie no será idéntica a la de un plástico inyectado o una madera pulida tradicional, lo cual es parte de la estética e identidad del instrumento.",
+    "s3_title": "3. Limitación de Responsabilidad",
+    "s3_p1": "REBO 3D fabrica y suministra los cuerpos, mástiles y componentes. Aunque garantizamos la integridad estructural (ver Política de Envíos y Devoluciones), el ensamblaje final, calibración de cuerdas, entonación y soldadura de componentes electrónicos es responsabilidad del usuario a menos que se adquiera un modelo \"Ensamblado y Calibrado\".",
+    "s3_p2": "No nos hacemos responsables de daños a los componentes impresos causados por una tensión incorrecta de las cuerdas, un montaje defectuoso por parte del cliente o la exposición prolongada a temperaturas extremas (especialmente en interiores de vehículos).",
+    "s4_title": "4. Propiedad Intelectual",
+    "s4_p": "Todos los diseños paramétricos, modelos base (como REBO Strat y Acoustic Shell), logos y contenido visual de este sitio son propiedad exclusiva de REBO 3D. Está estrictamente prohibida la ingeniería inversa de nuestras estructuras internas de resonancia (infill acústico) con fines comerciales.",
+    "s5_title": "5. Modificación de Precios",
+    "s5_p": "Los precios de nuestros productos (tanto filamentos como guitarras) están sujetos a cambios sin previo aviso debido a las fluctuaciones en los costes de materiales y horas de impresión. Sin embargo, respetaremos el precio del momento en que se confirme y pague el pedido."
+  },
+  "privacy": {
+    "back_home": "Volver al inicio",
+    "title": "Política de Privacidad",
+    "s1_title": "1. Recopilación de Información",
+    "s1_p": "En REBO 3D valoramos enormemente tu privacidad. Recopilamos información personal básica (como nombre, correo electrónico, dirección de envío y detalles del pedido) exclusivamente para procesar tus pedidos de piezas impresas en 3D, gestionar el envío y proporcionar soporte técnico.",
+    "s2_title": "2. Uso de la Información",
+    "s2_intro": "La información que recopilamos se utiliza para:",
+    "s2_items": [
+      "Fabricar y enviar los productos personalizados que has solicitado.",
+      "Comunicarnos contigo respecto al estado de tu maquinado o envío.",
+      "Proporcionar soporte posventa y gestionar la garantía estructural.",
+      "Mejorar nuestro configurador 3D basándonos en métricas de uso anónimas."
+    ],
+    "s3_title": "3. Modelos 3D y Diseños Personalizados",
+    "s3_p": "Si nos envías archivos STL, OBJ o ideas para proyectos \"Custom Shop\", garantizamos la total confidencialidad de tu propiedad intelectual. No compartiremos, revenderemos ni utilizaremos tus diseños originales para otros clientes sin tu consentimiento expreso por escrito.",
+    "s4_title": "4. Protección de Datos",
+    "s4_p": "Implementamos medidas de seguridad estándar de la industria para proteger tu información personal y los detalles de pago. Tus datos de transacción son procesados por pasarelas de pago seguras de terceros y nosotros no almacenamos números de tarjetas de crédito en nuestros servidores.",
+    "s5_title": "5. Tus Derechos",
+    "s5_p": "Tienes derecho a acceder, rectificar o solicitar la eliminación de tus datos personales en cualquier momento. Para ejercer estos derechos o realizar cualquier consulta sobre tu privacidad, contacta con nosotros a través de nuestro portal de soporte."
+  },
+  "returns": {
+    "back_home": "Volver al inicio",
+    "title": "Política de Envíos y Devoluciones",
+    "s1_title": "1. Tiempos de Maquinado y Envío",
+    "s1_p1": "En REBO 3D, cada pieza se fabrica bajo demanda con los más altos estándares de calidad. Dependiendo de los materiales seleccionados y la complejidad de la pieza, el proceso de impresión (maquinado) toma entre 4 y 7 días hábiles.",
+    "s1_p2": "Una vez la pieza ha superado nuestros controles de calidad, se procesa el envío. El tiempo de tránsito estándar es de 2 a 3 días hábiles adicionales dentro de la península. Recibirás un código de seguimiento en cuanto tu pedido salga de nuestro laboratorio.",
+    "s2_title": "2. Piezas a Medida y Guitarras Custom",
+    "s2_p1": "Debido a la naturaleza altamente personalizada de nuestras guitarras y componentes bajo demanda, no aceptamos devoluciones por arrepentimiento o cambios de opinión una vez el proceso de impresión ha comenzado.",
+    "s2_p2": "Cada instrumento se calibra y fabrica según las especificaciones exactas que has elegido en nuestro configurador. Por ello, te pedimos que revises cuidadosamente tu pedido antes de confirmarlo.",
+    "s3_title": "3. Garantía y Defectos de Fábrica",
+    "s3_p1": "Estamos comprometidos con la excelencia de nuestro hardware. Ofrecemos una garantía estructural de 2 años en todos los cuerpos y mástiles impresos en nuestro laboratorio, que cubre cualquier deformación inusual por el estrés natural de las cuerdas o defectos de fabricación.",
+    "s3_p2": "Si recibes un producto dañado durante el transporte o con un defecto de impresión:",
+    "s3_items": [
+      "Notifícanos en un plazo de 48 horas tras la recepción del paquete.",
+      "Envía fotografías claras del defecto a nuestro equipo de soporte.",
+      "Nos encargaremos de fabricar y enviar una pieza de reemplazo sin coste adicional."
+    ],
+    "s4_title": "4. Cancelaciones",
+    "s4_p": "Puedes cancelar tu pedido y recibir un reembolso completo siempre y cuando la cancelación se solicite dentro de las primeras 24 horas tras la compra, antes de que el pedido entre en la cola de producción de nuestras impresoras."
+  }
+}

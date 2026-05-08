@@ -1,0 +1,188 @@
+{
+  "navbar": {
+    "explore": "Arakatu",
+    "configurator": "3D Konfiguratzailea",
+    "gallery": "Galeria",
+    "about": "Gure Historia",
+    "support": "Laguntza",
+    "login": "Hasi saioa"
+  },
+  "hero": {
+    "title_rebo": "REBO 3D:",
+    "title_future": "Luthiergintzaren Etorkizuna.",
+    "subtitle": "Konfiguratu. Inprimatu. Jo.",
+    "enter_lab": "Sartu Laborategira",
+    "view_gallery": "Ikusi Galeria"
+  },
+  "narrative": {
+    "title1": "Ingeniaritza Garbia.",
+    "title2": "Zehaztasun Absolutua.",
+    "title3": "Zure Soinua, Neurri-neurrira.",
+    "description": "REBO 3D-n, lutheria tradizionala fabrikazio aditiboa abangoardiarekin konbinatzen dugu. Gure tailerra laborategia da, non filamentua erresonantzia perfektuan bihurtzen den.",
+    "badge": "Ingeniaritza Tailerra"
+  },
+  "footer": {
+    "description": "Lutheria tradizionala gaindituz zehaztasun-ingeniaritza eta 3D inprimaketaren bidez.",
+    "rights": "Eskubide guztiak erreserbatuak.",
+    "legal": "Legala eta Laguntza",
+    "returns": "Bidalketak eta Itzulketak",
+    "terms": "Baldintzak",
+    "privacy": "Pribatutasun Politika",
+    "follow": "Jarraitu guri",
+    "community": "Gure sortzaile eta luthier komunitatearekin bat egin."
+  },
+  "cookie": {
+    "title": "Zure pribatutasuna baloratzen dugu",
+    "description": "Gure eta hirugarrenen cookieak erabiltzen ditugu gure webgunean zure esperientzia hobetzeko, trafikoa aztertzeko eta edukia pertsonalizatzeko. Cookie guztiak onartu, baztertu edo zure lehentasunak konfiguratu ditzakezu. Informazio gehiagorako, irakurri gure ",
+    "privacy_link": "Pribatutasun Politika",
+    "reject": "Baztertu",
+    "options": "Aukerak",
+    "accept": "Dena Onartu",
+    "preferences_title": "Pribatutasun Lehentasunak",
+    "preferences_desc": "Pertsonalizatu nola erabiltzen ditugun zure datuak. Ezinbesteko cookieak ezin dira desaktibatu, webgunearen funtzionamendurako beharrezkoak baitira.",
+    "essential_title": "Ezinbestekoak (Zorrozki beharrezkoak)",
+    "essential_desc": "Oinarrizko funtzioak eta webgunearen segurtasuna bermatzen dituzte.",
+    "analytics_title": "Analitikoak",
+    "analytics_desc": "Webgunearekin nola elkarreragiten duzun modu anonimoan ulertzen laguntzen digute, hobetzeko.",
+    "marketing_title": "Marketina eta Publizitatea",
+    "marketing_desc": "Bisitariak jarraitzeko eta garrantzitsuak eta erakargarriak diren iragarkiak erakusteko erabiltzen dira.",
+    "back": "Itzuli",
+    "save": "Lehentasunak Gorde"
+  },
+  "shop": {
+    "title": "REBO Katalogoa",
+    "subtitle": "3D inprimaketarako piezak, filamentuak eta oinarrizko modeloak.",
+    "filter": "Iragazi",
+    "coming_soon": "Laster",
+    "categories": {
+      "guitars": "Gitarrak",
+      "materials": "Materialak",
+      "hardware": "Hardwarea"
+    },
+    "tags": {
+      "popular": "Ezaguna",
+      "new": "Berria",
+      "premium": "Premium"
+    }
+  },
+  "gallery": {
+    "title": "REBO Komunitatea",
+    "subtitle": "Gure 3D-n inprimatutako piezak erabiliz mundu osoko sortzaile eta luthierrek muntatutako gitarrekin inspiratu.",
+    "by": "egilea",
+    "upload": "Igo zure Sorkuntza (Laster)"
+  },
+  "about": {
+    "title_our": "Gure",
+    "title_story": "Historia.",
+    "back_home": "Hasierara itzuli",
+    "p1": "Denbora asko igaro da 2021eko irailaren 13 hartatik",
+    "p1_cont": " Control 3D Akademian izena emateko erabaki nuenean. Nire hasierako helburua argia zen: nire Warhammer figurak eta beste pieza batzuk sortzea, margotu eta erakusteko.",
+    "p2_start": "Han 3D inprimaketaren mundua ez ezik, ",
+    "p2_bold": "komunitate izugarria",
+    "p2_end": " ere aurkitu nuen. Ohi den bezala, norbait ezagutzen duzu eta beste norbait aurkezten dizu, eta pixkanaka hobby hau bizi eta gozatzen dutenen jakintza bereganatzen joaten zara.",
+    "p3": "Nahiz eta, denborarekin, hobby izateari uzten dio lanaz kanpo zure denbora handia eskaintzen diozunean, eta egiazko pasio bihurtzen da.",
+    "section2_title1": "Hobbytik",
+    "section2_title2": " ",
+    "section2_title3": "Musikal Berrikuntzara",
+    "customized": "Pertsonalizatua",
+    "customized_desc": "Gitarra bakoitza bakarra da, bezeroari egokitua.",
+    "p4_start": "Eta nola iritsi nintzen gitarren mundura? Neurri handi batean, nire lagun eta bazkideari esker, nik bezala musikaria baita. Egun batean, biltegiak arakatuz, ",
+    "p4_bold": "Prusacaster",
+    "p4_end": " ospetsua aurkitu genuen: Prusa makina batean 3D inprimaketaz fabrikatutako Fender Telecaster bat. Horrek gure jakin-mina piztu zuen.",
+    "p5_start": "Kontzeptu horretan lanean hasi ginen, ",
+    "p5_bold": "bere akatsak aztertuz eta pixkanaka hobetuz",
+    "p5_end": ", gaur egun gauden puntura iritsi arte: eskaeraren araberako gitarra pertsonalizatuak sortuz. Bezero bakoitzak bilatzen eta behar duenera egokitzen gara, eta zerbait ezinezkoa denean, konponbide onena aurkitzeko alternatibak eskaintzen ditugu.",
+    "quote": "\"Hau da Rebo3D: lan asko, ilusioa asko eta musika eta ideia batetik gauzak sortzeagatiko pasio partekatua.\""
+  },
+  "support": {
+    "title": "Laguntza Teknikoa",
+    "subtitle": "Hemen gaude zure REBO hardware-a muntatu, konfiguratu edo edozein arazo konpontzeko laguntzeko.",
+    "faq_title": "Ohiko Galderak",
+    "contact_title": "Zuzeneko Kontaktua",
+    "contact_subtitle": "Idatzi eta ingeniari batek 24 ordutan erantzungo dizu.",
+    "name_label": "Izena",
+    "name_placeholder": "Zure izena",
+    "email_label": "Posta Elektronikoa",
+    "email_placeholder": "zu@posta.com",
+    "message_label": "Mezua",
+    "message_placeholder": "Zertan lagun zaitzakegu?",
+    "send": "Mezua Bidali",
+    "sent_title": "Mezua Bidalita",
+    "sent_desc": "Eskerrik asko gurekin harremanetan jartzeagatik. Zure kasua ahalik eta lasterren berrikusiko dugu.",
+    "send_another": "Beste mezu bat bidali",
+    "faqs": [
+      {
+        "question": "Zenbat denbora behar da inprimaketa eta bidalketa prozesuak?",
+        "answer": "Hautatutako materialen eta piezaren konplexutasunaren arabera, mekanizazioak 4 eta 7 lanegun artean hartzen ditu. Bidalketak normalean 2-3 egun gehigarri behar ditu penintsularen barruan."
+      },
+      {
+        "question": "Zer motatako filamentuak erabiltzen dituzue tresnetarako?",
+        "answer": "Akustikoki aldatutako polikarbonato (PC), PETG indartua eta maila industrialeko PLA+ erabiltzen ditugu. Material hauek soka-tentsioarekiko erresistentzia eta erresonantzia optimoa bermatzen dituzte."
+      },
+      {
+        "question": "Posible al da konfiguratzailean ez dagoen diseinu pertsonalizatu bat eskatzea?",
+        "answer": "Bai. Custom Shop proiektu berezietarako, erabili beheko formularioa eta kontatu zure ideia. Gure ingeniari eta diseinatzaile taldeak ebaluatuko du."
+      },
+      {
+        "question": "Osagaiek bermea al dute?",
+        "answer": "Gure laborategian inprimatutako gorputz eta lepoen 2 urteko egitura bermea eskaintzen dugu, erabileraren estres naturaletik eratorritako edozein deformazio estalduz."
+      }
+    ]
+  },
+  "terms": {
+    "back_home": "Hasierara itzuli",
+    "title": "Baldintzak",
+    "s1_title": "1. Baldintzen Onartzea",
+    "s1_p": "REBO 3D webgunea eta gure instrumentu konfiguratzailea erabiliz, Baldintza hauek onartzea onartzen duzu. Baldintzen edozein zatirekin ados ez bazaude, gure zerbitzuak ez dituzu erabili behar.",
+    "s2_title": "2. 3D Inprimaketaren Izaera",
+    "s2_p1": "Ulertzen eta onartzen duzu 3D inprimaketa (FDM/SLA/SLS) geruza geruzako fabrikazio gehigarriko prozesu bat dela. Ondorioz, normala da azken produktuek geruza-lerro arinak edo mekanizazio prozesuari dagozkion ehundurak aurkeztea.",
+    "s2_p2": "Gure laborategiak makinak kalibratu arren 0.1mm-ko tolerantziak eta premium akabera lortzeko, gainazala ez da injekziozko plastiko edo modu tradizionalean leundutako egur baten berdina izango, eta hori instrumentuaren estetikaren eta identitatearen parte da.",
+    "s3_title": "3. Erantzukizunaren Mugatzea",
+    "s3_p1": "REBO 3D-k gorputzak, lepoak eta osagaiak fabrikatzen eta hornitzen ditu. Egitura-osotasuna bermatzen dugun arren, azken muntaia, soken kalibrazioa, intonazioa eta osagai elektronikoen soldadura erabiltzailearen erantzukizuna da, \"Muntatua eta Kalibratua\" modelo bat eskuratzen ez bada.",
+    "s3_p2": "Ez gara inprimatutako osagaien kalteez arduratzen, soka-tentsio okerra, bezeroak egindako muntaia akastuna edo tenperatura muturretara esposizio luzatuak (bereziki ibilgailuen barrualdean) eragindakoak badira.",
+    "s4_title": "4. Jabetza Intelektuala",
+    "s4_p": "Diseinu parametriko guztiak, oinarrizko modeloak (hala nola REBO Strat eta Acoustic Shell), logoak eta gune honetako eduki bisuala REBO 3D-ren jabetza esklusiboa dira. Gure barne-erresonantzia egituren (infill akustikoa) alderantzizko ingeniaritza fini komertzialekin debekatuta dago.",
+    "s5_title": "5. Prezioen Aldaketa",
+    "s5_p": "Gure produktuen prezioak (filamentu eta gitarrak) aldez aurretik jakinarazi gabe aldatzeko modukoak dira material kostuen eta inprimaketa orduen gorabeherengatik. Hala ere, eskaera berretsi eta ordaintzen den uneko prezioa errespetatuko dugu."
+  },
+  "privacy": {
+    "back_home": "Hasierara itzuli",
+    "title": "Pribatutasun Politika",
+    "s1_title": "1. Informazioaren Bilketa",
+    "s1_p": "REBO 3D-n zure pribatutasuna oso baloratzen dugu. Oinarrizko informazio pertsonala jasotzen dugu (izena, posta elektronikoa, bidalketa helbidea eta eskaera xehetasunak bezala) 3D-n inprimatutako piezen eskaerak prozesatzeko, bidalketa kudeatzeko eta laguntza teknikoa emateko soilik.",
+    "s2_title": "2. Informazioaren Erabilera",
+    "s2_intro": "Jasotzen dugun informazioa honako hauetarako erabiltzen da:",
+    "s2_items": [
+      "Eskatu dituzun produktu pertsonalizatuak fabrikatu eta bidali.",
+      "Zure mekanizazio edo bidalketaren egoerari buruz komunikatu.",
+      "Salmenta osteko laguntza eman eta egitura bermea kudeatu.",
+      "Gure 3D konfiguratzailea erabilera-metrika anonimoetatik abiatuta hobetu."
+    ],
+    "s3_title": "3. 3D Modeloak eta Diseinu Pertsonalizatuak",
+    "s3_p": "STL, OBJ fitxategiak edo \"Custom Shop\" proiektuentzako ideiak bidaltzen badizkiguzu, zure jabetza intelektualaren erabateko konfidentzialtasuna bermatzen dugu. Ez ditugu zure jatorrizko diseinuak beste bezeroentzat partekatu, birsalduko edo erabiliko, zure berariazko idatzizko baimenik gabe.",
+    "s4_title": "4. Datuen Babesa",
+    "s4_p": "Industriako segurtasun neurri estandarrak ezartzen ditugu zure informazio pertsonala eta ordainketa xehetasunak babesteko. Zure transakzio datuak hirugarrenen ordainketa pasabide seguruek prozesatzen dituzte eta guk ez ditugu kreditu-txartel zenbakiak gure zerbitzarietan gordetzen.",
+    "s5_title": "5. Zure Eskubideak",
+    "s5_p": "Zure datu pertsonalak atzitzeko, zuzentzeko edo ezabatzeko eskatzeko eskubidea duzu edozein unetan. Eskubide hauek gauzatzeko edo pribatutasun kontsulta bat egiteko, jarri gurekin harremanetan gure laguntza atariaren bidez."
+  },
+  "returns": {
+    "back_home": "Hasierara itzuli",
+    "title": "Bidalketa eta Itzulketa Politika",
+    "s1_title": "1. Mekanizazio eta Bidalketa Denborak",
+    "s1_p1": "REBO 3D-n, pieza bakoitza eskaeraren arabera fabrikatzen da kalitate estandar altuenak erabiliz. Hautatutako materialen eta piezaren konplexutasunaren arabera, inprimaketa prozesuak (mekanizazioa) 4 eta 7 lanegun artean hartzen ditu.",
+    "s1_p2": "Piezak gure kalitate kontrolak gainditzen dituenean, bidalketa prozesatzen da. Garraio denbora estandarra 2 eta 3 lanegun gehigarri dira penintsularen barruan. Jarraipen-kodea jasoko duzu zure eskaera gure laborategitik irten bezain laster.",
+    "s2_title": "2. Neurri-neurriko Piezak eta Custom Gitarrak",
+    "s2_p1": "Gure gitarren eta eskaeraz sortutako osagaien izaera oso pertsonalizatua dela eta, ez ditugu itzulketak onartzen iritziz aldatzeagatik behin inprimaketa prozesua hasi denean.",
+    "s2_p2": "Instrumentu bakoitza gure konfiguratzailean aukeratu dituzun zehaztapen zehatzen arabera kalibratzen eta fabrikatzen da. Horregatik, eskatzen dizugu zure eskaera arretaz berrikusteko baieztatu aurretik.",
+    "s3_title": "3. Bermea eta Fabrikazio Akatsak",
+    "s3_p1": "Gure hardware-aren bikaintasunarekin konprometituta gaude. 2 urteko egitura bermea eskaintzen dugu gure laborategian inprimatutako gorputz eta lepo guztietan, soken estres naturaletik edo fabrikazio akatsetatik eratorritako edozein deformazio ezohiko estalduz.",
+    "s3_p2": "Garraioan kaltetuta edo inprimaketa akatsekin produktu bat jasotzen baduzu:",
+    "s3_items": [
+      "48 orduko epean jakinarazi guri paketea jaso eta gero.",
+      "Akatsaren argazki argiak bidali gure laguntza taldeari.",
+      "Ordezko pieza fabrikatu eta bidaltzea kostu gehigarririk gabe."
+    ],
+    "s4_title": "4. Ezeztatze",
+    "s4_p": "Zure eskaera ezeztatu eta itzulketa osoa jaso dezakezu, beti ere ezeztapena erosketaren lehen 24 orduetan eskatzen bada, eskaera gure inprimagailuen produkzio-ilaran sartu aurretik."
+  }
+}
