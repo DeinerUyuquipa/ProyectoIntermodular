@@ -2,6 +2,7 @@ import { NextResponse } from 'next/server';
 import type { NextRequest } from 'next/server';
 import { match as matchLocale } from '@formatjs/intl-localematcher';
 import Negotiator from 'negotiator';
+import { updateSession, decrypt } from './lib/auth';
 
 let locales = ['es', 'en', 'eu'];
 let defaultLocale = 'es';
@@ -20,13 +21,38 @@ function getLocale(request: NextRequest): string {
   }
 }
 
-export function middleware(request: NextRequest) {
-  // Check if there is any supported locale in the pathname
+export async function proxy(request: NextRequest) {
   const pathname = request.nextUrl.pathname;
+  
+  // Proteger rutas de administración
+  if (pathname.includes('/admin')) {
+    const session = request.cookies.get('session')?.value;
+    let isAdmin = false;
+    
+    if (session) {
+      try {
+        const parsed = await decrypt(session);
+        if (parsed?.role === 'admin') {
+          isAdmin = true;
+        }
+      } catch (error) {
+        // Ignorar error de descifrado
+      }
+    }
+    
+    if (!isAdmin) {
+      const locale = getLocale(request);
+      return NextResponse.redirect(new URL(`/${locale}/login`, request.url));
+    }
+  }
+
+  // Check if there is any supported locale in the pathname
   
   const pathnameIsMissingLocale = locales.every(
     (locale) => !pathname.startsWith(`/${locale}/`) && pathname !== `/${locale}`
   );
+
+  let response: NextResponse;
 
   // Redirect if there is no locale
   if (pathnameIsMissingLocale) {
@@ -34,10 +60,19 @@ export function middleware(request: NextRequest) {
 
     // e.g. incoming request is /products
     // The new URL is now /en-US/products
-    return NextResponse.redirect(
+    response = NextResponse.redirect(
       new URL(`/${locale}${pathname.startsWith('/') ? '' : '/'}${pathname}`, request.url)
     );
+  } else {
+    response = NextResponse.next({
+      request: {
+        headers: request.headers,
+      },
+    });
   }
+
+  // Update Supabase session
+  return await updateSession(request, response);
 }
 
 export const config = {
