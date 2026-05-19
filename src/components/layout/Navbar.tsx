@@ -98,12 +98,12 @@ export function Navbar({ dictionary, lang }: { dictionary?: any; lang?: string }
                     <DropdownMenuItem className="text-xs text-muted-foreground">
                       {user.email}
                     </DropdownMenuItem>
-                    <DropdownMenuItem asChild>
-                      <Link href={`/${currentLang}/profile`} className="cursor-pointer w-full">Mi Perfil</Link>
+                    <DropdownMenuItem onClick={() => router.push(`/${currentLang}/profile`)} className="cursor-pointer w-full">
+                      Mi Perfil
                     </DropdownMenuItem>
                     {user.role === 'admin' && (
-                      <DropdownMenuItem asChild>
-                        <Link href={`/${currentLang}/admin`} className="cursor-pointer w-full">Panel Admin</Link>
+                      <DropdownMenuItem onClick={() => router.push(`/${currentLang}/admin`)} className="cursor-pointer w-full">
+                        Panel Admin
                       </DropdownMenuItem>
                     )}
                   </DropdownMenuGroup>
